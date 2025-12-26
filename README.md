@@ -139,20 +139,20 @@ devops-aws-engineering-guide/
 
 ## 01. Foundation (Internet, Applications & Architecture Basics)
 
-* How the Internet works
-* What is a server
-* What Is an Application
-* Web server vs Application server
-* Types of applications
-* Application Lifecycle
-* What is DevOps
-* Client–Server Architecture
-* Stateless vs Stateful systems
-* Monolithic vs Microservices architecture
-* High Availability vs Fault Tolerance
-* Application support and maintenance
-* Software Development Life Cycle (SDLC)
-* What Is an Operating System
+* [How the internet works](./01-foundation/01-how-the-internet-works/README.md)
+* [What is a server](./01-foundation/02-what-is-a-server/README.md)
+* [What Is an application](./01-foundation/03-what-is-an-application/README.md)
+* [Web server vs Application server](./01-foundation/04-web-server-vs-application-server/README.md)
+* [Types of applications](./01-foundation/05-types-of-applications/README.md)
+* [Application Lifecycle](./01-foundation/06-application-lifecycle/README.md)
+* [What is DevOps](./01-foundation/07-what-is-devops/README.md)
+* [Client–Server Architecture](./01-foundation/08-client-server-architecture/README.md)
+* [Stateless vs Stateful systems](./01-foundation/09-stateless-vs-stateful/README.md)
+* [Monolithic vs Microservices architecture](./01-foundation/10-monolith-vs-microservices/README.md)
+* [High Availability vs Fault Tolerance](./01-foundation/11-high-availability-vs-fault-tolerance/README.md)
+* [Application support and maintenance](./01-foundation/12-application-support-maintenance/README.md)
+* [Software Development Life Cycle (SDLC)](./01-foundation/13-software-development-life-cycle/README.md)
+* [What Is an Operating System](./01-foundation/14-operating-systems/README.md)
 
 ## 02. Linux Fundamentals (System Engineering Base)
 
