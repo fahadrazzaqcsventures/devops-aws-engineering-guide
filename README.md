@@ -80,44 +80,81 @@ This repository is intentionally documentation-heavy and structured to demonstra
 ## Repository Structure
 
 ```
-devops-aws-complete-guide/
+devops-aws-engineering-guide/
 ├── README.md
 ├── 01-foundation/
-├── 02-system-administration/
+├── 02-linux-fundamentals/
 ├── 03-version-control/
-├── 04-networking/
-├── 05-containerization/
-├── 06-cicd/
-├── 07-infrastructure-as-code/
-├── 08-configuration-management/
-├── 09-container-orchestration/
-├── 10-monitoring-logging/
-├── 11-cloud-services/
-├── 12-gitops/
-├── 13-devsecops/
-├── 95-templates/
-├── 96-interview-prep/
-├── 97-cheatsheets/
-├── 98-home-lab/
-├── 99-projects/
+│   ├── 01-git-fundamentals/
+│   ├── 02-GitHub/
+│   └── 03-collaboration-practices/
+├── 04-networking-loadbalancing/
+├── 05-automation-programming/
+│   ├── 01-shell-scripting/
+│   └── 02-python-for-devops/
+├── 06-containerization/
+│   ├── 01-docker-fundamentals/
+│   ├── 02-docker-tooling/
+│   └── 03-operations-troubleshooting/
+├── 07-cloud-fundamentals/
+│   ├── 01-cloud-basics/
+│   ├── 02-iam-security/
+│   ├── 03-compute-networking/
+│   ├── 04-storage-databases/
+│   ├── 05-advanced-cloud-concepts/
+│   └── 06-cost-awareness/
+├── 08-cicd-delivery-engineering/
+│   ├── 01-core-concepts/
+│   ├── 02-jenkins/
+│   ├── 03-github-actions/
+│   ├── 04-delivery-engineering/
+│   └── 05-tooling-evaluation/
+├── 09-infrastructure-as-code/
+│   └── 01-terraform/
+├── 10-configuration-management/
+│   └── 01-ansible/
+├── 11-kubernetes/
+│   ├── 01-kubernetes-core/
+│   ├── 02-core-objects/
+│   ├── 03-networking-storage/
+│   ├── 04-configuration-security/
+│   ├── 05-operations/
+│   └── 06-failure-scenarios/
+├── 12-helm-gitops/
+│   ├── 01-helm/
+│   └── 02-gitops/
+├── 13-observability-monitoring/
+├── 14-security-devsecops/
+├── 15-reliability-sre/
+├── 16-job-readiness-interview-engineering/
+├── 17-agentic-ai-aiops/
+└── 98-home-lab-practice/
 ```
 
 ---
 
-# Phase 1: Foundations — System & Application Fundamentals
+## DevOps Learning Roadmap (Industry-Aligned)
 
-## 1. Foundation (Internet, Applications & Architecture Basics)
+## Phase 1: Foundations — System & Application Fundamentals
 
-* How the Internet works, servers, applications
-* Web vs application servers
-* Client–Server architecture
-* Stateless vs stateful systems
-* Monolithic vs microservices
-* High availability vs fault tolerance
+## 01. Foundation (Internet, Applications & Architecture Basics)
+
+* How the Internet works
+* What is a server
+* What Is an Application
+* Web server vs Application server
+* Types of applications
+* Application Lifecycle
+* What is DevOps
+* Client–Server Architecture
+* Stateless vs Stateful systems
+* Monolithic vs Microservices architecture
+* High Availability vs Fault Tolerance
+* Application support and maintenance
 * Software Development Life Cycle (SDLC)
-* What is DevOps and Operating System fundamentals
+* What Is an Operating System
 
-## 2. Linux Fundamentals (System Engineering Base)
+## 02. Linux Fundamentals (System Engineering Base)
 
 ### Linux Internals & OS Concepts
 
@@ -180,7 +217,7 @@ devops-aws-complete-guide/
 * High load
 * Networking failures
 
-## 3. Version Control & Collaboration
+## 03. Version Control & Collaboration
 
 ### Git Fundamentals
 
@@ -196,8 +233,6 @@ devops-aws-complete-guide/
 ### Platforms
 
 * GitHub
-* GitLab
-* Bitbucket
 
 ### Collaboration & Engineering Practices
 
@@ -208,7 +243,7 @@ devops-aws-complete-guide/
 * Engineering communication
 * Git as portfolio
 
-## 4. Networking, Ports & Load Balancing
+## 04. Networking, Ports & Load Balancing
 
 ### Core Networking
 
@@ -248,7 +283,7 @@ devops-aws-complete-guide/
 * traceroute
 * Network troubleshooting
 
-## 5. Automation & Programming for DevOps
+## 05. Automation & Programming for DevOps
 
 ### Shell / Bash Scripting
 
@@ -283,7 +318,7 @@ devops-aws-complete-guide/
 
 ---
 
-# Phase 2: Core DevOps & Delivery Engineering
+## Phase 2: Core DevOps & Delivery Engineering
 
 ## 6. Containerization
 
@@ -409,11 +444,12 @@ devops-aws-complete-guide/
 
 ---
 
-# Phase 3: Cloud at Scale — Platform Engineering
+## Phase 3: Cloud at Scale — Platform Engineering
 
 ## 9. Infrastructure as Code (IaC)
 
-* Terraform
+### Terraform
+
 * HCL
 * Terraform workflow
 * CLI commands
@@ -430,14 +466,15 @@ devops-aws-complete-guide/
 
 ## 10. Configuration Management
 
-* Ansible
+### Ansible
+
 * Terraform vs Ansible
 * Ansible architecture
 * Inventory management
 * Playbooks
 * Roles
 
-## 11. Kubernetes (Most Critical Skill)
+## 11. Kubernetes (Container Orchestration)
 
 ### Kubernetes Core
 
@@ -510,7 +547,7 @@ devops-aws-complete-guide/
 
 ---
 
-# Phase 4: Production Readiness & Senior DevOps
+## Phase 4: Production Readiness & Senior DevOps
 
 ## 13. Observability & Monitoring
 
@@ -588,8 +625,6 @@ devops-aws-complete-guide/
 ---
 
 ## Projects & Hands-On Learning
-
-**(All projects include stage guidance and tools/skills for real-world practice)**
 
 ### 1. Web Hosting & Deployment (DevOps Fundamentals)
 
